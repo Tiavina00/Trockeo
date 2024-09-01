@@ -262,6 +262,7 @@ namespace Trockeo
             proposeExchangeModal.Controls.Add(new Label
             {
                 Text = "Proposer un échange",
+                Size= Size = new System.Drawing.Size(400,20),
                 Font = new System.Drawing.Font("Arial", 14, System.Drawing.FontStyle.Bold),
                 Location = new System.Drawing.Point(10, 10)
             });

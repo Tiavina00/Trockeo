@@ -363,7 +363,7 @@ namespace Trockeo
             // Lien "Mot de passe oublié"
             LinkLabel lnkForgotPassword = new LinkLabel();
             lnkForgotPassword.Text = "Mot de passe oublié ?";
-            //lnkForgotPassword.BackColor = Color.Black ;
+            lnkForgotPassword.BackColor = Color.White ;
             lnkForgotPassword.Location = new Point(115, 200);
             lnkForgotPassword.AutoSize = true;
             lnkForgotPassword.Font = new Font("Segoe UI", 10);
@@ -462,7 +462,7 @@ namespace Trockeo
             {
                 Size = new Size(360, 450),
                 Location = new Point(15, 10),
-                BackColor = Color.FromArgb(240, 240, 240),
+                BackColor = Color.White,
                 Visible = false // Le panneau est caché par défaut
             };
 
